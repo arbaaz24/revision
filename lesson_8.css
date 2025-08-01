@@ -1,0 +1,49 @@
+.name{
+    border-color: aquamarine;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.email{
+    border-color: rgb(225, 127, 255);
+    font-size: 20px;
+    display: block;
+}
+
+.feedback{
+    display: inline-block;
+    width: 200px;
+    vertical-align: middle;
+}
+
+.logo{
+    
+    width: 200px;
+    
+}
+
+.searchbox{
+    width:400px;
+    border-radius: 9px;
+    border-width: 1px;
+    border-style: solid;
+    border: none;
+    padding: 12px 12px 12px 12px;
+    box-shadow: 0px 2px 9px;
+    cursor:pointer;
+    transition: box-shadow .15s;
+}
+
+.searchbox:hover{
+    box-shadow: 0px 2px 20px;
+}
+
+.google{
+    display: block;
+    text-align: center;
+}
+
+.img{
+    text-align: center;
+}

@@ -1,0 +1,52 @@
+.profilepic{
+    width: 300px;
+    border-radius: 150px;
+    object-fit: cover;
+    object-position: left;
+    
+}
+
+.searchbox{
+    margin-left: 40px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border: none;
+    padding: 12px 12px 12px 12px;
+    box-shadow: 0px 2px 9px;
+    cursor:pointer;
+    transition: box-shadow .15s;
+}
+
+.searchbox:hover{
+    box-shadow: 0px 2px 20px;
+}
+
+.signup{
+    font-family: Arial;
+}
+
+.searchbox2{
+    width: 300px;
+}
+
+.Agree{
+    width: 300px;
+    height: 40px;
+    border:none;
+    border-radius: 18px;
+    background-color: rgb(16, 83, 207);
+    color: white;
+    padding: 8px 30 px 8px 30px;
+    cursor: pointer;
+    transition: opacity .15s;
+    
+}
+
+.Agree:hover{
+    opacity: .8;
+}
+
+.Agree:active{
+    opacity: .3;
+}

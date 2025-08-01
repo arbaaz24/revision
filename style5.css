@@ -1,0 +1,70 @@
+.tahoma {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+.arial {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.subtitle {
+    color: red;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.v {
+    font-family: verdana;
+    font-weight: Bold;
+    font-size: 30px;
+    margin-bottom: 2px;
+}
+
+.v_subtitle {
+    margin-top: 2px;
+    color: grey;
+    font-family: verdana;
+}
+
+.v_description {
+    font-family: Verdana;
+    width: 300px;
+}
+
+.v_button {
+    background-color: green;
+    color: white;
+    border-width: 0px;
+    padding: 4px 12px 4px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: box-shadow .15s, opacity .15s;
+}
+
+.v_button:hover {
+    box-shadow: 0px 2px 9px black;
+}
+
+.v_button:active {
+    opacity: .5;
+}
+
+.app{
+    text-align: center;
+    font-family: arial;
+}
+
+.apple{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+.apple_link{
+    text-decoration: none;
+    color: rgb(0, 145, 255);
+}
