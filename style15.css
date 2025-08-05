@@ -1,0 +1,93 @@
+body {
+    height: 3000px;
+}
+
+.bottom-rt {
+    height: 180px;
+    width: 320px;
+    background-color: gray;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+}
+
+.close-button {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    border: none;
+    height: 30px;
+    padding-left: 11px;
+    padding-right: 11px;
+    border-radius: 15px;
+    position: absolute;
+    top: -11px;
+    left: -11px;
+    box-shadow: .8px .8px 2px white;
+}
+
+.time {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-family: arial;
+
+}
+
+.blue-jeans {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+.product {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.discount {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding: 4px;
+    position: absolute;
+    top: 7px;
+    right: 0px;
+
+
+}
+
+.overlay {
+    position: absolute;
+    height: 80px;
+    background-color: rgba(253, 253, 253, 0.826);
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product .tooltip {
+    background-color: rgb(213, 205, 205);
+    position:absolute;
+    opacity:0;
+    transition: opacity .15s;
+    margin-left: 10px;
+    padding: 3px;
+    border-radius: 3px;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.product:hover .tooltip{
+    opacity: 1;
+}
